@@ -1,0 +1,74 @@
+Recursion:
+1. A function that calls itself; an easier way to write loop statements
+2. Base case is necessary so we know when we are done
+
+Graphs:
+1. Graphs are a tree of sort, but without unique parent/child relationships, and contains loops
+2. Graphs are looped trees
+
+Performance of Different Data Structures:
+Python list: 
+    Add-L: O(n)
+    Pop-L: O(n)
+    Pop-R: O(1)
+LinkedList:
+    Index: O(n)
+    Search: O(n)
+    Add-R: O(n)
+    Add-L: O(1)
+    Pop-L: O(1)
+    Pop-R: O(n)
+Doubly-Linked List:
+    Index: O(n)
+    Search: O(n)
+    Add-R: O(1)
+    Add-L: O(1)
+    Pop-L: O(1)
+    Pop-R: O(1)
+Queue as list:
+    Add-R: O(1)
+    Pop-L: O(n)
+Queue as LL or DLL: 
+    Add-R: O(1)
+    Pop-L: O(1)
+Stack:
+    Add-R: O(1)
+    Pop-L: O(1)
+Deque:
+    Add-R: O(1)
+    Add-L: O(1)
+    Pop-L: O(1)
+    Pop-R: O(1)
+
+Fill in runtime and memory:
+Set:
+    Get: O(1)
+    Add: O(1)
+    Delete: O(1)
+    Iterate: O(1)
+    Memory: medium
+Binary Tree:
+    Get: O(log n)
+    Add: O(n)
+    Delete: O(n)
+    Iterate: O(1)
+    Memory: little
+Tree: 
+    Get: O(n)
+    Add: O(1)
+    Delete: O(1)
+    Iterate: O(1)
+    Memory: little
+
+Sorting:
+1. Bubble Sort: compare and order two adjacent numbers so the biggest number will end up at the far right after each pass
+2. Merge Sort: split a list in half and compare the first element of each list and order them
+3. Quick sort: leverage a randomly selected pivot and then move all numbers greater than pivot to the right and all those smaller to the left
+
+Git Branching:
+1. Working on a new feature after project code freeze.
+2. Pull request: asking repo owner to review my branch, and if approved, then repo owner will merge my branch into master
+
+
+    
+
